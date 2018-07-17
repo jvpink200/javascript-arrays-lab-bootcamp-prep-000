@@ -21,3 +21,8 @@ function appendKitten(name){
 function prependKitten(name){
 
 }
+
+function removeLastKitten(name){
+  var new_array = kittens.pop(name);
+  return new_array;
+}
