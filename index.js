@@ -22,8 +22,3 @@ function prependKitten(name){
   var new_array = [...kittens,name];
   return new_array;
 }
-
-function removeLastKitten(name){
-  var new_array = kittens.pop(name);
-  return new_array;
-}
